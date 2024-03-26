@@ -2,7 +2,6 @@ import unittest
 
 import main
 
-
 class test(unittest.TestCase):
 
     def test_distance_walk(self):
@@ -33,3 +32,4 @@ class test(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+в
