@@ -30,5 +30,6 @@ class test(unittest.TestCase):
                         f'ошибка, бегущий {student1} Прошёл меньшую дистанцию, чем идущий {student2}')
 
 
+
 if __name__ == "__main__":
     unittest.main()
