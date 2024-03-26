@@ -27,9 +27,8 @@ class test(unittest.TestCase):
             student1.run()
             student2.walk()
         self.assertLess(student2.distance, student1.distance,
-                        f'ошибка, бегущий {student1} Прошёл меньшую дистанцию, чем идущий{student2}')
+                        f'ошибка, бегущий {student1} Прошёл меньшую дистанцию, чем идущий {student2}')
 
 
 if __name__ == "__main__":
     unittest.main()
-в
